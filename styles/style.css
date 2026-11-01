@@ -36,6 +36,11 @@
 
 .header__address {
   justify-self: end;
+  max-width: 248px;
+}
+
+.header__address .address-text {
+  max-width: 236px;
 }
 
 .cover {
@@ -114,7 +119,7 @@
 .lots {
   width: 1052px;
   height: 723px;
-  margin-top: 180px;
+  margin: 180px auto 0;
 }
 
 .lots-heading {
@@ -232,6 +237,7 @@
   align-items: start;
   height: 180px;
   margin-top: 180px;
+  padding: 0 50px;
 }
 
 .address {
@@ -251,6 +257,7 @@
 .footer__menu-list {
   font-size: 18px;
   list-style: none;
+  text-align: center;
 }
 
 .footer__menu-link_active {
@@ -262,7 +269,6 @@
   justify-content: space-between;
   justify-self: end;
   width: 240px;
-  margin-right: 50px;
   list-style: none;
 }
 
