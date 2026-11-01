@@ -36,7 +36,7 @@
 
 .header__address {
   justify-self: end;
-  max-width: 248px;
+  width: 248px;
 }
 
 .header__address .address-text {
@@ -123,6 +123,7 @@
 }
 
 .lots-heading {
+  margin-bottom: 33px;
   padding-left: 40px;
   font-size: 40px;
   line-height: 47px;
@@ -179,7 +180,7 @@
 
 .lots-look-more-link {
   display: inline-block;
-  margin-top: 24px;
+  margin: 24px 0 0 40px;
   font-size: 20px;
 }
 
@@ -213,7 +214,7 @@
 }
 
 .about-title {
-  margin-bottom: 60px;
+  margin: 3px 0 107px;
   font-size: 40px;
   line-height: 1;
   text-transform: uppercase;
